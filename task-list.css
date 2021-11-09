@@ -1,0 +1,51 @@
+h1{
+    text-align: center;
+}
+.task-form{
+    text-align: center;
+}
+.task-input{
+    width: 30%;
+    height: 30px;
+    border-style: outset;
+    border-radius: 5px;
+}
+.add-button-settings{
+    margin-top: 10px;
+}
+.addbutton{
+    border-radius: 10px;
+    background-color: cadetblue;
+    border-style: solid;
+}
+.task-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item{
+    width: 50%;
+    height: 40px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: groove;
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+.to-do-work{
+    margin-left: 16px;
+}
+.work-icon{
+    margin-right: 10px;
+}
+#trash-check-pointer{
+    cursor: pointer;
+}
+i.checked{
+    color: rgb(18, 236, 18);
+}
+li.checked{
+    opacity: 0.5;
+}
